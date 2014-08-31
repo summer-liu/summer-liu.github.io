@@ -1,0 +1,114 @@
+	* {
+	margin: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10;
+}
+	body {
+        background-color: #FFF; 
+        color: #111; 
+        font-family: "Times New Roman", Times, serif, "Trebuchet MS",arial,"bitstream vera sans",sans-serif; 
+        font-size: 90%; 
+        padding: 10%; 
+        }
+    p.margin
+    {
+        margin-left: 15px;
+    }
+    p.author 
+    {
+        color:#000;
+    }
+    p.journal 
+    {
+        color:#000;
+    }
+    p.title 
+    {
+        color: #1600ff;
+        font-weight: normal;
+    }
+    h1 {
+        color: #1600ff; 
+        text-align: center; 
+        border-bottom: 2px solid #00ff0f; 
+        font-size: 280%;
+        }
+	h2 {
+        color: #1600ff; 
+        font-size: 150%; 
+        text-align: center;
+        }
+    h3 {
+        color: #1600ff; 
+        font-size: 110%; 
+        text-align: left; 
+        margin-bottom: 1em; 
+        text-decoration: none;
+        }
+    h4 {
+        color: #1600ff; 
+        font-size: 110%; 
+        text-align: left; 
+        margin-top: 1em; 
+        margin-bottom: 1em; 
+        text-decoration: none;
+        }
+    h5 {
+        color: #1600ff; 
+        font-size: 100%; 
+        text-align: left; 
+        margin-top: 0.7em; 
+        margin-bottom: 0.1em;
+        }
+	h6 {
+        color: #1600ff; 
+        text-align: center; 
+        border-top: 2px solid #00ff0f; 
+        clear: both; font-size: 100%;
+        }
+		
+		h7 {
+        color: #ff1493   ; 
+        font-size: 90%;
+		
+        }
+	img {
+        float: right; 
+        border: 0px solid #00ff0f; 
+        margin: 1em;
+        padding: 0em;
+        }
+	#menu {
+        float: left; 
+        list-style: none; 
+        text-align: center; 
+        width: 14em;
+        }
+	#menu li {list-style: none;}
+	#menu li a {
+        background-color: #DDD; 
+        color: #1600ff; 
+        display: block; 
+        font-size: 120%; 
+        font-weight: bold; 
+        margin: 1.5em; 
+        padding: 0.8em;
+        text-decoration: none;
+        }
+	#menu li a:hover {background-color: #ff001b; color: white; }
+    #menu li a.current {background-color: #ff001b; color: white;}
+
+	#content {
+        border-left: 1.5px solid #00ff0f; 
+        margin-left: 13em; 
+        font-size: 115%; 
+        padding: 1.5em; 
+        text-align:left
+        }
+    #content li {margin-left: 10px; list-style: square inside;}
+    #content li2 {margin-left: 10px; list-style: square inside; margin-top: 5px;}
+	a {color: #ff001b; text-decoration: none;}
+	a:hover {color: #1600ff; text-decoration: underline;}
+    .red   {color: #ff001b;}
