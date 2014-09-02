@@ -7,7 +7,7 @@ var projection = d3.geo.albersUsa()
 var path = d3.geo.path()
 				.projection(projection);
 
-var svg = d3.select("body").append("svg");
+var svg = d3.select("body").append("svg").attr("width",w).attr("height",h);
 
 d3.json("gz_2010_us_040_00_20m.json", function(json){
 	svg.selectAll("path")
