@@ -1,5 +1,5 @@
 
-var w = 700, h = 500;
+var w = 1200, h = 800;
 var projection = d3.geo.albersUsa()
 					.translate([w/2, h/2])
 					.scale([500]);
