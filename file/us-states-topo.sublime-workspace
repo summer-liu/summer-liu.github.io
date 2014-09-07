@@ -1,0 +1,184 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"total",
+				"totalStudentHours"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"student",
+				"studentStats"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Tao/GitHub/LeetCode/singleNumber2.py",
+		"/Users/Tao/GitHub/LeetCode/singleNumber1.py",
+		"/Users/Tao/GitHub/LeetCode/candy.py",
+		"/Users/Tao/GitHub/LeetCode/MaxPointsOnLine.py",
+		"/Users/Tao/GitHub/LeetCode/evalRPN.py",
+		"/Users/Tao/GitHub/LeetCode/ReverseWord.py",
+		"/Users/Tao/Sunshine/public/stylesheets/style.css",
+		"/Users/Tao/Sunshine/test.js",
+		"/Users/Tao/Sunshine/dataProvider.js",
+		"/Users/Tao/Sunshine/public/javascripts/d3chart3.js",
+		"/Users/Tao/Sunshine/public/javascripts/d3chart.js",
+		"/Users/Tao/Sunshine/public/javascripts/d3chart2.js",
+		"/Users/Tao/Sunshine/public/stylesheets/style.styl",
+		"/Users/Tao/Sunshine/views/index.jade",
+		"/Users/Tao/Sunshine/app.js",
+		"/Users/Tao/Sunshine/public/javascripts/d3.tip.v0.6.3.js",
+		"/etc/hosts",
+		"/Users/Tao/Sunshine/public/data.csv",
+		"/Users/Tao/Sunshine/public/test.html",
+		"/Users/Tao/Sunshine/data.csv",
+		"/Users/Tao/Sunshine/public/javascripts/data.csv",
+		"/Users/Tao/Sunshine/test.html",
+		"/Users/Tao/Sunshine/else/dataProvider.js",
+		"/Users/Tao/Sunshine/else/app2.js",
+		"/Users/Tao/Sunshine/else/app.js",
+		"/Users/Tao/Sunshine/dualchart.js",
+		"/Users/Tao/Sunshine/ddd.js",
+		"/Users/Tao/Documents/NodeTutorial/public/hello.html",
+		"/Users/Tao/Documents/NodeTutorial/package.json",
+		"/Users/Tao/Documents/NodeTutorial/views/404.jade",
+		"/Users/Tao/Documents/NodeTutorial/hello.js",
+		"/Users/Tao/package.json",
+		"//package.json",
+		"/Users/Tao/hello.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"2",
+			"xScale",
+			";\n",
+			"type",
+			"studentProblemTime"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}
