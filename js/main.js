@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: '#myMenu',
-        lockAnchors: true,
+        lockAnchors: false,
         anchors:['Home', 'Skills','Experience', 'Projects','Education','Contact'],
         navigation: true,
         navigationPosition: 'right',
@@ -39,9 +39,9 @@ $(document).ready(function() {
 
         //Design
         controlArrows: true,
-        verticalCentered: true,
+        verticalCentered: false,
         resize : false,
-        sectionsColor : ['#4BBFC3','#1bbc9b', '#7BAABE', 'whitesmoke', '#ccddff'],
+        sectionsColor : ['#26B1B6','#1BBC9B','#1BD1A5', '#66CC99', '#A4E2C6', '#C0EBD7', '#E0F0E9'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
