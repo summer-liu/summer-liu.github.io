@@ -1,0 +1,26 @@
+{
+  "name": "Tao Liu's Homepage",
+  "version": "1.0.0",
+  "homepage": "summer-liu.github.io",
+  "authors": [
+    "Tao Liu"
+  ],
+  "description": "",
+  "keywords": [
+    "Resume",
+    "Web Developer",
+    "Data Scientist"
+  ],
+  "license": "CC BY 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "~2.7.1"
+  }
+}
+

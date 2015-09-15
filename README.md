@@ -1,4 +1,3 @@
-summer-liu.github.io
-====================
+# Tao's Homepage
 
-homepage
+[Tao's Homepage](https://summer-liu.github.io)
