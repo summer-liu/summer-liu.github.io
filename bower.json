@@ -7,11 +7,11 @@
   ],
   "description": "",
   "keywords": [
+    "Tao Liu",
     "Resume",
     "Web Developer",
     "Data Scientist"
   ],
-  "license": "CC BY 3.0",
   "ignore": [
     "**/.*",
     "node_modules",

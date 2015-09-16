@@ -6,10 +6,10 @@ $(document).ready(function() {
         //Navigation
         menu: '#myMenu',
         lockAnchors: false,
-        anchors:['Home', 'Skills','Experience', 'Projects','Education','Contact'],
+        anchors:['Home','Experience', 'Projects', 'Skills','Education','Contact'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Home', 'Skills','Experience', 'Projects','Education','Contact'],
+        navigationTooltips: ['Home', 'Experience', 'Projects','Skills','Education','Contact'],
         showActiveTooltip: false,
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
         //Design
         controlArrows: true,
-        verticalCentered: false,
+        verticalCentered: true,
         resize : false,
         sectionsColor : ['#26B1B6','#1BBC9B','#1BD1A5', '#66CC99', '#A4E2C6', '#C0EBD7', '#E0F0E9'],
         paddingTop: '3em',
