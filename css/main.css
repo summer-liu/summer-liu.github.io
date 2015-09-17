@@ -59,7 +59,7 @@ h1:first-child{
 
 #experience h4{
     color:white;
-    transform: translate(32%, 0);
+    /*transform: translate(32%, 0);*/
     margin-top: 30px;
 }
 #experience a {
@@ -69,6 +69,19 @@ h1:first-child{
     color:#E0F0E9;
 }
 
+#projects{
+    color:white;
+}
+#projects a{
+    color:white;
+}
+#projects a:hover{
+    color:#E0F0E9;
+}
+#projects p {
+    color: #C0EBD7;
+    margin-left: 50px;
+}
 #skills .row {
     text-align:center;
     margin-top:20px;
