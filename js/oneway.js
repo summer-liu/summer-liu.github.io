@@ -4,6 +4,7 @@ var width = 1250, height = 480,centered;
 var projection = d3.geo.albersUsa()
 					.translate([width/2-100, height/2])
 					.scale([1000]);
+console.log('oneway');
 
 
 var path = d3.geo.path()
@@ -28,7 +29,7 @@ var textGroup = g.append("g");
 
 var state = ["California","Nevada","Utah","Colorado","Kansas","Missouri","Illinois","Kentucky","Virginia","DC"];
 
-d3.json("us-states-topo.json", function(err,us){
+d3.json("js/us-states-topo.json", function(err,us){
 	if (err) console.error(err);
 
 	for (var i=0; i < topojson.feature(us,us.objects.states).features.length; i++){
@@ -75,7 +76,7 @@ d3.json("us-states-topo.json", function(err,us){
         .style("pointer-events", "none")
 
 
-	d3.tsv("oneway-data.tsv",function(err,data){
+	d3.tsv("js/oneway-data.tsv",function(err,data){
 		if (err) console.error(err);
 
 		var tip1 = d3.tip()
@@ -215,7 +216,7 @@ d3.json("us-states-topo.json", function(err,us){
 	imageGroup.selectAll(".image").data([0])
 		.enter()
 		.append("svg:image")
-	    .attr("xlink:href", "../images/bike.jpeg")
+	    .attr("xlink:href", "imgs/bike.jpeg")
 	    .attr("width", "50")
 	    .attr("height", "50")
 	    .attr("x",110 )
@@ -252,7 +253,7 @@ d3.json("us-states-topo.json", function(err,us){
 	imageGroup.selectAll(".image").data([0])
 		.enter()
 		.append("svg:image")
-	    .attr("xlink:href", "../images/radius2.jpg")
+	    .attr("xlink:href", "imgs/radius2.jpg")
 	    .attr("width", "70")
 	    .attr("height", "70")
 	    .attr("x",1000 )
@@ -280,7 +281,7 @@ d3.json("us-states-topo.json", function(err,us){
 	imageGroup.selectAll(".image").data([0])
 		.enter()
 		.append("svg:image")
-	    .attr("xlink:href", "../images/equator.jpg")
+	    .attr("xlink:href", "imgs/equator.jpg")
 	    .attr("width", "70")
 	    .attr("height", "70")
 	    .attr("x",1000 )
@@ -331,7 +332,7 @@ d3.json("us-states-topo.json", function(err,us){
 	imageGroup.selectAll(".image").data([0])
 		.enter()
 		.append("svg:image")
-	    .attr("xlink:href", "../images/mount.jpeg")
+	    .attr("xlink:href", "imgs/mount.jpeg")
 	    .attr("width", "70")
 	    .attr("height", "70")
 	    .attr("x",1000 )
@@ -359,7 +360,7 @@ d3.json("us-states-topo.json", function(err,us){
 	imageGroup.selectAll(".image").data([0])
 		.enter()
 		.append("svg:image")
-	    .attr("xlink:href", "../images/eiffel.jpeg")
+	    .attr("xlink:href", "imgs/eiffel.jpeg")
 	    .attr("width", "70")
 	    .attr("height", "70")
 	    .attr("x",1000 )
